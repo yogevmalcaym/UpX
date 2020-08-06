@@ -1,0 +1,3 @@
+import {MODULE_NAMESPACE} from './manifest';
+
+export const SET_INIT_COMPLETED = `${MODULE_NAMESPACE}/SET_INIT_COMPLETED`;

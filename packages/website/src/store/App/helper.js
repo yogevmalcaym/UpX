@@ -1,0 +1,1 @@
+export const fetchSomething = async () => new Promise(r => setTimeout(r, 1000));

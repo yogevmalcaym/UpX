@@ -1,0 +1,16 @@
+{
+  "name": "@front/common-components",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "classnames": "^2.2.6",
+    "polished": "^3.6.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-image-fallback": "^8.0.0",
+    "styled-components": "^5.1.0"
+  }
+}
