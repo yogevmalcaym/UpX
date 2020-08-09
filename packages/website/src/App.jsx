@@ -46,6 +46,6 @@ export const mapDispatchToProps = (dispatch, ownProps) => ({
 export const ConnectedApp = connect(mapStateToProps, mapDispatchToProps)(App);
 
 export default () =>
-    <Suspense fallback={<Loader size="big"/>}>
+    <Suspense fallback={<Loader abs size="big"/>}>
         <ConnectedApp/>
     </Suspense>;
